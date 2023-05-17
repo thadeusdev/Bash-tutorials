@@ -23,3 +23,29 @@ print(50 ** 2) #exponents
 print(50 % 6) #modulo - takes whats left over
 print(50 / 6) #division with remainder (or float)
 print(50 // 6) #no remainder
+
+print('\n')
+#VARIABLES AND METHODS
+quote = "All is fair in love and war"
+print(quote)
+
+#METHODS
+print(quote.upper()) #uppercase
+print(quote.lower()) #lowercase
+print(quote.title()) #title case - capitalize every first letter
+print(len(quote)) #counts characters including spaces
+
+name = "Thadeus" #string
+age = 33 #int
+gpa = 3.7 #float
+
+print(age) #prints 33
+print(int(30.1)) #prints 30 - will it round? No
+print("My name is "+name+" and i am "+str(age)+" years old.")
+
+age += 1 #variables can change
+print(age) #34
+
+birthday = 1
+age += birthday
+print(age) #35
